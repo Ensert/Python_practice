@@ -64,21 +64,106 @@
 # n = int(input('enter number: '))
 # num_to_string(n)
 
+# Напишіть функцію для отримання рядка з перших n символів іншого рядка. Якщо довжина рядка менше n, поверніть початковий рядок.
 #
+# def out(char, n):
+#     if n >= len(char):
+#         return char
+#     else:
+#         return char[:n]
+#
+#
+# leght = input('enter string: ')
+# a = int(input('enter number: '))
+# res = out(leght, a)
+# print(res)
+
+# Напишіть функцію для визначення більшого з двох цілих чисел без використання вбудованої функції max().
+# Якщо числа рівні, то вивести повідомлення equal.
+#
+# def sort(a, b):
+#     eq = 'equal'
+#     if a > b:
+#         return a
+#     elif a < b:
+#         return b
+#     elif a == b:
+#         return eq
+#
+#
+# var1 = int(input('Enter 1st value: '))
+# var2 = int(input('enter 2nd value: '))
+# result = sort(var1, var2)
+# print(result)
+
+# Напишіть функцію для визначення найбільшого з трьох цілих чисел з використанянм вбудованої функції max().
+#
+# def h_value(a):
+#     return max(a)
+#
+#
+# numbers = []
+# i = 1
+# while i <= 3:
+#     n = int(input('enter number: '))
+#     numbers.append(n)
+#     i += 1
+# res = h_value(numbers)
+# print(res)
+
+# Напишіть функцію, яка отримує два слова, об’єднує їх за допомогою пропуску і друкує результат об’єднання.
+
+# def join(a, b):
+#     print(f'{a} {b}')
 
 
+# z = input('enter 1st word: ')
+# x = input('enter 2nd word: ')
+# join(z, x)
+
+# Напишіть функцію, яка отримує 3 аргументи: перші 2 - числа, третій - операція (+, -, *, /), яка повинна бути проведена над ними.
+# У випадку невідомої операції, функція повертає рядок Unknown operation. Результатом має бути дійсне число з двома знаками після десяткової крапки.
+#
+# def num_operate(a, b, c):
+#     if c == '+':
+#         res = a + b
+#         print(res)
+#     elif c == '-':
+#         res = a - b
+#         print(res)
+#     elif c == '*':
+#         res = a * b
+#         print(res)
+#     elif c == '/':
+#         res = a / b
+#         print(res)
+#     else:
+#         print(f'\'{c.capitalize()}\' is an unknown operation')
+#
+#
+# var1 = int(input('enter 1st number: '))
+# var2 = int(input('enter 2nd number: '))
+# var3 = input('enter math operation: ')
+# num_operate(var1, var2, var3)
+
+# Напишіть функцію, яка перевіряє, чи подана послідовність порожня чи ні.
+
+# def empty_check(a):
+#     return not bool(a)
 
 
-
-
-
-
-
-
-
-
-
-
+# tuple1 = (4.5, 4, 'char')
+# list1 = [6, ',', 5]
+# dict1 = {'key1': 'value1', 'key2': 'value2'}
+# tuple2 = ()
+# list2 = []
+# dict2 = {}
+# print(empty_check(tuple1))
+# print(empty_check(tuple2))
+# print(empty_check(list1))
+# print(empty_check(list2))
+# print(empty_check(dict1))
+# print(empty_check(dict2))
 
 
 
